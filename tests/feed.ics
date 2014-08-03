@@ -1,0 +1,343 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Meetup//RemoteApi//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-ORIGINAL-URL:http://www.meetup.com/GangplankRVA/events/ical/Gangplank+R
+ VA/
+X-WR-CALNAME:Events - Gangplank RVA
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20131011T022201Z
+DTSTART;TZID=America/New_York:20131011T110000
+DTEND;TZID=America/New_York:20131011T130000
+STATUS:CONFIRMED
+SUMMARY:Gangplank RVA: Entrepreneurs Friday Lunch Meeting
+DESCRIPTION:Gangplank RVA\nFriday\, October 11 at 11:00 AM\n\nThis is for
+  people interested in having conversations regarding real world issues i
+ n running a small business (or starting a new one). Bring your lunc...\n
+ \nDetails: http://www.meetup.com/GangplankRVA/events/143996532/
+CLASS:PUBLIC
+CREATED:20130719T212834Z
+GEO:37.59;-77.50
+LOCATION:Gangplank RVA (2930 West Broad Street\, #9G\, Richmond\, VA 2323
+ 0)
+URL:http://www.meetup.com/GangplankRVA/events/143996532/
+LAST-MODIFIED:20130719T212834Z
+UID:event_qgfkkgyrnbpb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131011T022201Z
+DTSTART;TZID=America/New_York:20131015T100000
+DTEND;TZID=America/New_York:20131015T120000
+STATUS:CONFIRMED
+SUMMARY:Gangplank RVA: BYOW Website Workshop
+DESCRIPTION:Gangplank RVA\nTuesday\, October 15 at 10:00 AM\n\nBYOW = Bri
+ ng Your Own Website Want to build your own website or update the one you
+  have?  Want to develop and maintain a social media strategy that wo...\
+ n\nDetails: http://www.meetup.com/GangplankRVA/events/144557762/
+CLASS:PUBLIC
+CREATED:20131001T154215Z
+GEO:37.59;-77.50
+LOCATION:Gangplank RVA (2930 West Broad Street\, #9G\, Richmond\, VA 2323
+ 0)
+URL:http://www.meetup.com/GangplankRVA/events/144557762/
+LAST-MODIFIED:20131001T154215Z
+UID:event_dxczvgyrnbtb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131011T022201Z
+DTSTART;TZID=America/New_York:20131018T110000
+DTEND;TZID=America/New_York:20131018T130000
+STATUS:CONFIRMED
+SUMMARY:Gangplank RVA: Entrepreneurs Friday Lunch Meeting
+DESCRIPTION:Gangplank RVA\nFriday\, October 18 at 11:00 AM\n\nThis is for
+  people interested in having conversations regarding real world issues i
+ n running a small business (or starting a new one). Bring your lunc...\n
+ \nDetails: http://www.meetup.com/GangplankRVA/events/qgfkkgyrnbxb/
+CLASS:PUBLIC
+CREATED:20130719T212834Z
+GEO:37.59;-77.50
+URL:http://www.meetup.com/GangplankRVA/events/qgfkkgyrnbxb/
+LAST-MODIFIED:20130719T212834Z
+UID:event_qgfkkgyrnbxb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131011T022201Z
+DTSTART;TZID=America/New_York:20131022T100000
+DTEND;TZID=America/New_York:20131022T120000
+STATUS:CONFIRMED
+SUMMARY:Gangplank RVA: BYOW Website Workshop
+DESCRIPTION:Gangplank RVA\nTuesday\, October 22 at 10:00 AM\n\nBYOW = Bri
+ ng Your Own Website Want to build your own website or update the one you
+  have?  Want to develop and maintain a social media strategy that wo...\
+ n\nDetails: http://www.meetup.com/GangplankRVA/events/144683672/
+CLASS:PUBLIC
+CREATED:20131001T154215Z
+GEO:37.59;-77.50
+LOCATION:Gangplank RVA (2930 West Broad Street\, #9G\, Richmond\, VA 2323
+ 0)
+URL:http://www.meetup.com/GangplankRVA/events/144683672/
+LAST-MODIFIED:20131001T154215Z
+UID:event_dxczvgyrnbdc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131011T022201Z
+DTSTART;TZID=America/New_York:20131025T110000
+DTEND;TZID=America/New_York:20131025T130000
+STATUS:CONFIRMED
+SUMMARY:Gangplank RVA: Entrepreneurs Friday Lunch Meeting
+DESCRIPTION:Gangplank RVA\nFriday\, October 25 at 11:00 AM\n\nThis is for
+  people interested in having conversations regarding real world issues i
+ n running a small business (or starting a new one). Bring your lunc...\n
+ \nDetails: http://www.meetup.com/GangplankRVA/events/144901552/
+CLASS:PUBLIC
+CREATED:20130719T212834Z
+GEO:37.59;-77.50
+LOCATION:Gangplank RVA (2930 West Broad Street\, #9G\, Richmond\, VA 2323
+ 0)
+URL:http://www.meetup.com/GangplankRVA/events/144901552/
+LAST-MODIFIED:20130719T212834Z
+UID:event_qgfkkgyrnbhc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131011T022201Z
+DTSTART;TZID=America/New_York:20131029T100000
+DTEND;TZID=America/New_York:20131029T120000
+STATUS:CONFIRMED
+SUMMARY:Gangplank RVA: BYOW Website Workshop
+DESCRIPTION:Gangplank RVA\nTuesday\, October 29 at 10:00 AM\n\nBYOW = Bri
+ ng Your Own Website Want to build your own website or update the one you
+  have?  Want to develop and maintain a social media strategy that wo...\
+ n\nDetails: http://www.meetup.com/GangplankRVA/events/dxczvgyrnbmc/
+CLASS:PUBLIC
+CREATED:20131001T154215Z
+GEO:37.59;-77.50
+URL:http://www.meetup.com/GangplankRVA/events/dxczvgyrnbmc/
+LAST-MODIFIED:20131001T154215Z
+UID:event_dxczvgyrnbmc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131011T022201Z
+DTSTART;TZID=America/New_York:20131101T110000
+DTEND;TZID=America/New_York:20131101T130000
+STATUS:CONFIRMED
+SUMMARY:Gangplank RVA: Entrepreneurs Friday Lunch Meeting
+DESCRIPTION:Gangplank RVA\nFriday\, November 1 at 11:00 AM\n\nThis is for
+  people interested in having conversations regarding real world issues i
+ n running a small business (or starting a new one). Bring your lunc...\n
+ \nDetails: http://www.meetup.com/GangplankRVA/events/qgfkkgyrpbcb/
+CLASS:PUBLIC
+CREATED:20130719T212834Z
+GEO:37.59;-77.50
+URL:http://www.meetup.com/GangplankRVA/events/qgfkkgyrpbcb/
+LAST-MODIFIED:20130719T212834Z
+UID:event_qgfkkgyrpbcb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131011T022201Z
+DTSTART;TZID=America/New_York:20131105T100000
+DTEND;TZID=America/New_York:20131105T120000
+STATUS:CONFIRMED
+SUMMARY:Gangplank RVA: BYOW Website Workshop
+DESCRIPTION:Gangplank RVA\nTuesday\, November 5 at 10:00 AM\n\nBYOW = Bri
+ ng Your Own Website Want to build your own website or update the one you
+  have?  Want to develop and maintain a social media strategy that wo...\
+ n\nDetails: http://www.meetup.com/GangplankRVA/events/dxczvgyrpbhb/
+CLASS:PUBLIC
+CREATED:20131001T154215Z
+GEO:37.59;-77.50
+URL:http://www.meetup.com/GangplankRVA/events/dxczvgyrpbhb/
+LAST-MODIFIED:20131001T154215Z
+UID:event_dxczvgyrpbhb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131011T022201Z
+DTSTART;TZID=America/New_York:20131106T180000
+DTEND;TZID=America/New_York:20131106T200000
+STATUS:CONFIRMED
+SUMMARY:Gangplank RVA: The Bullpen (Practicing Your Pitch)
+DESCRIPTION:Gangplank RVA\nWednesday\, November 6 at 6:00 PM\n\nAre you r
+ eady to pitch your idea to potential customers or investors?  Gangplank 
+ RVA is offering a dedicated night for you to hone your message and ma...
+ \n\nDetails: http://www.meetup.com/GangplankRVA/events/143601522/
+CLASS:PUBLIC
+CREATED:20130829T194206Z
+GEO:37.59;-77.50
+LOCATION:Gangplank RVA (2930 West Broad Street\, #9G\, Richmond\, VA 2323
+ 0)
+URL:http://www.meetup.com/GangplankRVA/events/143601522/
+LAST-MODIFIED:20130829T194206Z
+UID:event_dkspqgyrpbjb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131011T022201Z
+DTSTART;TZID=America/New_York:20131108T110000
+DTEND;TZID=America/New_York:20131108T130000
+STATUS:CONFIRMED
+SUMMARY:Gangplank RVA: Entrepreneurs Friday Lunch Meeting
+DESCRIPTION:Gangplank RVA\nFriday\, November 8 at 11:00 AM\n\nThis is for
+  people interested in having conversations regarding real world issues i
+ n running a small business (or starting a new one). Bring your lunc...\n
+ \nDetails: http://www.meetup.com/GangplankRVA/events/qgfkkgyrpblb/
+CLASS:PUBLIC
+CREATED:20130719T212834Z
+GEO:37.59;-77.50
+URL:http://www.meetup.com/GangplankRVA/events/qgfkkgyrpblb/
+LAST-MODIFIED:20130719T212834Z
+UID:event_qgfkkgyrpblb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131011T022201Z
+DTSTART;TZID=America/New_York:20131112T100000
+DTEND;TZID=America/New_York:20131112T120000
+STATUS:CONFIRMED
+SUMMARY:Gangplank RVA: BYOW Website Workshop
+DESCRIPTION:Gangplank RVA\nTuesday\, November 12 at 10:00 AM\n\nBYOW = Br
+ ing Your Own Website Want to build your own website or update the one yo
+ u have?  Want to develop and maintain a social media strategy that wo...
+ \n\nDetails: http://www.meetup.com/GangplankRVA/events/dxczvgyrpbqb/
+CLASS:PUBLIC
+CREATED:20131001T154215Z
+GEO:37.59;-77.50
+URL:http://www.meetup.com/GangplankRVA/events/dxczvgyrpbqb/
+LAST-MODIFIED:20131001T154215Z
+UID:event_dxczvgyrpbqb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131011T022201Z
+DTSTART;TZID=America/New_York:20131115T110000
+DTEND;TZID=America/New_York:20131115T130000
+STATUS:CONFIRMED
+SUMMARY:Gangplank RVA: Entrepreneurs Friday Lunch Meeting
+DESCRIPTION:Gangplank RVA\nFriday\, November 15 at 11:00 AM\n\nThis is fo
+ r people interested in having conversations regarding real world issues 
+ in running a small business (or starting a new one). Bring your lunc...\
+ n\nDetails: http://www.meetup.com/GangplankRVA/events/qgfkkgyrpbtb/
+CLASS:PUBLIC
+CREATED:20130719T212834Z
+GEO:37.59;-77.50
+URL:http://www.meetup.com/GangplankRVA/events/qgfkkgyrpbtb/
+LAST-MODIFIED:20130719T212834Z
+UID:event_qgfkkgyrpbtb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131011T022201Z
+DTSTART;TZID=America/New_York:20131119T100000
+DTEND;TZID=America/New_York:20131119T120000
+STATUS:CONFIRMED
+SUMMARY:Gangplank RVA: BYOW Website Workshop
+DESCRIPTION:Gangplank RVA\nTuesday\, November 19 at 10:00 AM\n\nBYOW = Br
+ ing Your Own Website Want to build your own website or update the one yo
+ u have?  Want to develop and maintain a social media strategy that wo...
+ \n\nDetails: http://www.meetup.com/GangplankRVA/events/dxczvgyrpbzb/
+CLASS:PUBLIC
+CREATED:20131001T154215Z
+GEO:37.59;-77.50
+URL:http://www.meetup.com/GangplankRVA/events/dxczvgyrpbzb/
+LAST-MODIFIED:20131001T154215Z
+UID:event_dxczvgyrpbzb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131011T022201Z
+DTSTART;TZID=America/New_York:20131122T110000
+DTEND;TZID=America/New_York:20131122T130000
+STATUS:CONFIRMED
+SUMMARY:Gangplank RVA: Entrepreneurs Friday Lunch Meeting
+DESCRIPTION:Gangplank RVA\nFriday\, November 22 at 11:00 AM\n\nThis is fo
+ r people interested in having conversations regarding real world issues 
+ in running a small business (or starting a new one). Bring your lunc...\
+ n\nDetails: http://www.meetup.com/GangplankRVA/events/qgfkkgyrpbdc/
+CLASS:PUBLIC
+CREATED:20130719T212834Z
+GEO:37.59;-77.50
+URL:http://www.meetup.com/GangplankRVA/events/qgfkkgyrpbdc/
+LAST-MODIFIED:20130719T212834Z
+UID:event_qgfkkgyrpbdc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131011T022201Z
+DTSTART;TZID=America/New_York:20131129T110000
+DTEND;TZID=America/New_York:20131129T130000
+STATUS:CONFIRMED
+SUMMARY:Gangplank RVA: Entrepreneurs Friday Lunch Meeting
+DESCRIPTION:Gangplank RVA\nFriday\, November 29 at 11:00 AM\n\nThis is fo
+ r people interested in having conversations regarding real world issues 
+ in running a small business (or starting a new one). Bring your lunc...\
+ n\nDetails: http://www.meetup.com/GangplankRVA/events/qgfkkgyrpbmc/
+CLASS:PUBLIC
+CREATED:20130719T212834Z
+GEO:37.59;-77.50
+URL:http://www.meetup.com/GangplankRVA/events/qgfkkgyrpbmc/
+LAST-MODIFIED:20130719T212834Z
+UID:event_qgfkkgyrpbmc@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131011T022201Z
+DTSTART;TZID=America/New_York:20131204T180000
+DTEND;TZID=America/New_York:20131204T200000
+STATUS:CONFIRMED
+SUMMARY:Gangplank RVA: The Bullpen (Practicing Your Pitch)
+DESCRIPTION:Gangplank RVA\nWednesday\, December 4 at 6:00 PM\n\nAre you r
+ eady to pitch your idea to potential customers or investors?  Gangplank 
+ RVA is offering a dedicated night for you to hone your message and ma...
+ \n\nDetails: http://www.meetup.com/GangplankRVA/events/dkspqgyrqbgb/
+CLASS:PUBLIC
+CREATED:20130829T194206Z
+GEO:37.59;-77.50
+URL:http://www.meetup.com/GangplankRVA/events/dkspqgyrqbgb/
+LAST-MODIFIED:20130829T194206Z
+UID:event_dkspqgyrqbgb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131011T022201Z
+DTSTART;TZID=America/New_York:20131206T110000
+DTEND;TZID=America/New_York:20131206T130000
+STATUS:CONFIRMED
+SUMMARY:Gangplank RVA: Entrepreneurs Friday Lunch Meeting
+DESCRIPTION:Gangplank RVA\nFriday\, December 6 at 11:00 AM\n\nThis is for
+  people interested in having conversations regarding real world issues i
+ n running a small business (or starting a new one). Bring your lunc...\n
+ \nDetails: http://www.meetup.com/GangplankRVA/events/qgfkkgyrqbjb/
+CLASS:PUBLIC
+CREATED:20130719T212834Z
+GEO:37.59;-77.50
+URL:http://www.meetup.com/GangplankRVA/events/qgfkkgyrqbjb/
+LAST-MODIFIED:20130719T212834Z
+UID:event_qgfkkgyrqbjb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20131011T022201Z
+DTSTART;TZID=America/New_York:20131213T110000
+DTEND;TZID=America/New_York:20131213T130000
+STATUS:CONFIRMED
+SUMMARY:Gangplank RVA: Entrepreneurs Friday Lunch Meeting
+DESCRIPTION:Gangplank RVA\nFriday\, December 13 at 11:00 AM\n\nThis is fo
+ r people interested in having conversations regarding real world issues 
+ in running a small business (or starting a new one). Bring your lunc...\
+ n\nDetails: http://www.meetup.com/GangplankRVA/events/qgfkkgyrqbrb/
+CLASS:PUBLIC
+CREATED:20130719T212834Z
+GEO:37.59;-77.50
+URL:http://www.meetup.com/GangplankRVA/events/qgfkkgyrqbrb/
+LAST-MODIFIED:20130719T212834Z
+UID:event_qgfkkgyrqbrb@meetup.com
+END:VEVENT
+END:VCALENDAR
