@@ -1,38 +1,32 @@
 import requests
 
 from datetime import datetime
-from pytz import timezone
-from icalendar import Calendar, Event
 from django.conf import settings
+from icalendar import Calendar, Event
+from pytz import timezone
 
 
 def read_feed(feed_url):
     """
+    Generates an events list based on a calendar URL
+
+    :param feed_url: valid URL for an iCalendar feed
+    :returns: list of icalendar Events
     """
     response = requests.get(feed_url)
     cal = Calendar.from_ical(response.content)
-    events = get_events(cal)
-    # EVENT({'STATUS': 'CONFIRMED', 'DTSTAMP': <icalendar.prop.vDDDTypes object
-    # at 0x101523390>, 'DESCRIPTION': 'Gangplank RVA\nFriday, December 13 at
-    # 11:00 AM\n\nThis is for people interested in having conversations
-    # regarding real world issues in running a small business (or starting a
-    # new one). Bring your lunc...\n\nDetails:
-    # http://www.meetup.com/GangplankRVA/events/qgfkkgyrqbrb/', 'CREATED':
-    # <icalendar.prop.vDDDTypes object at 0x101523490>, 'URL':
-    # 'http://www.meetup.com/GangplankRVA/events/qgfkkgyrqbrb/', 'SUMMARY':
-        # 'Gangplank RVA: Entrepreneurs Friday Lunch Meeting', 'LAST-MODIFIED':
-        # <icalendar.prop.vDDDTypes object at 0x101523510>, 'DTEND':
-        # <icalendar.prop.vDDDTypes object at 0x101523410>, 'DTSTART':
-        # <icalendar.prop.vDDDTypes object at 0x1015233d0>, 'GEO':
-        # <icalendar.prop.vGeo object at 0x1015234d0>, 'CLASS': 'PUBLIC',
-        # 'UID': 'event_qgfkkgyrqbrb@meetup.com'})
-    return events
+    return get_events(cal)
 
 
 def is_valid_event(item, start, end):
     """
-    Return True if the item from a calendar is an event and it is between the
-    specified range of start and end times.
+    Determines whether an event is valid for inclusion in a list of events
+    based on whether it falls within a specified range of times.
+
+    :param item: an Event
+    :param start: datetime for when the valid range should start
+    :param end: datetime for when the valid range should end
+    :returns: boolean, is the event within time range
     """
     if not isinstance(item, Event):
         return False
@@ -45,7 +39,13 @@ def is_valid_event(item, start, end):
 
 def get_events(calendar, start=None, end=None, tz=settings.TIME_ZONE):
     """
-    Return events from an icalendar.cal.Calendar.
+    Returns a list of events from an icalendar Calendar based on an optional
+    window of time
+
+    :param calendar: an icalendar Calendar
+    :param start: an optional datetime for when the valid range should start
+    :param end: an optional datetime for when the valid range should end
+    :returns: list of icalendar Events
     """
     if start is None:
         start = datetime.now(timezone(tz))
