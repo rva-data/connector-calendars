@@ -12,7 +12,14 @@ logger = logging.getLogger(__name__)
 
 
 class ActiveCalendars(models.Manager):
+
+    def get_queryset(self):
+        """Returns the default Manager queryset"""
+        return super(ActiveCalendars,
+                     self).get_queryset().filter(is_active=True)
+
     def get_query_set(self):
+        """Returns the default Manager queryset (DEPRECATED)"""
         return super(ActiveCalendars,
                      self).get_query_set().filter(is_active=True)
 
