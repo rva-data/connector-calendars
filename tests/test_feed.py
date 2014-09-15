@@ -4,7 +4,7 @@ from datetime import datetime
 from pytz import timezone
 from django.test import TestCase
 
-from ..parsing import read_feed, get_events
+from calendars.parsing import read_feed, get_events
 
 
 class FeedTests(TestCase):

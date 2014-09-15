@@ -11,6 +11,16 @@ from .parsing import read_feed
 logger = logging.getLogger(__name__)
 
 
+def ustr(string):
+    """
+    Returns the Python version relevant string type
+    """
+    try:
+        return unicode(string)
+    except NameError:
+        return str(string)
+
+
 class ActiveCalendars(models.Manager):
 
     def get_queryset(self):
@@ -39,20 +49,15 @@ class CalendarFeed(TimeStampedModel):
     def __unicode__(self):
         return self.name
 
-    def update(self):
-        """
-        This method should create or update Events after reading the
-        CalendarFeed's ICS file.
-        """
-        events = read_feed(self.url)
-        for ical_event in events:
+    def process_events(self, eventfeed):
+        for ical_event in eventfeed:
             event_kwargs = {
                 'name': ical_event['SUMMARY'],
-                'slug': slugify(ical_event['SUMMARY']),
-                'description_markdown': unicode(ical_event.get('DESCRIPTION', u'')),
+                'slug': slugify(ustr(ical_event['SUMMARY'])),
+                'description_markdown': ustr(ical_event.get('DESCRIPTION', u'')),
                 'start': ical_event['DTSTART'].dt,
                 'end': ical_event['DTEND'].dt,
-                #'location': ical_event['LOCATION'],
+                # 'location': ical_event['LOCATION'],
                 'url': ical_event['url'],
             }
             if ical_event.get('GEO'):
@@ -71,4 +76,12 @@ class CalendarFeed(TimeStampedModel):
                     event.notes if event.notes else '',
                     action, datetime.now())
             event.save(update_fields=['notes'])
+
+    def update(self):
+        """
+        This method should create or update Events after reading the
+        CalendarFeed's ICS file.
+        """
+        events = read_feed(self.url)
+        self.process_events(events)
         logger.debug("Updated the '{0}' calendar".format(self.name))

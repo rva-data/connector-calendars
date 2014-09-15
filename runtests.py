@@ -16,6 +16,7 @@ try:
             "django.contrib.auth",
             "django.contrib.contenttypes",
             "django.contrib.sites",
+            "events",
             "calendars",
         ],
         SITE_ID=1,
