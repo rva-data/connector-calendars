@@ -2,13 +2,13 @@
 connector-calendars
 ===================
 
-.. image:: https://badge.fury.io/py/connector-calendars.png
+.. image:: https://badge.fury.io/py/connector-calendars.svg
     :target: https://badge.fury.io/py/connector-calendars
 
-.. image:: https://travis-ci.org/rva-data/connector-calendars.png?branch=master
+.. image:: https://travis-ci.org/rva-data/connector-calendars.svg?branch=master
     :target: https://travis-ci.org/rva-data/connector-calendars
 
-.. image:: https://coveralls.io/repos/rva-data/connector-calendars/badge.png?branch=master
+.. image:: https://coveralls.io/repos/rva-data/connector-calendars/badge.svg?branch=master
     :target: https://coveralls.io/r/rva-data/connector-calendars?branch=master
 
 
