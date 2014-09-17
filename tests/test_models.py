@@ -41,12 +41,24 @@ class EventTests(TestCase):
 
     def test_add_event(self):
         """Ensure a new event is added"""
-        events = [(VEvent(dummy_event(UID='somenewevent')))]
+        events_feed = [(VEvent(dummy_event(UID='somenewevent')))]
         c = CalendarFeed.objects.create(
             name="Test", url="")
-        c.process_events(events)
+        c.process_events(events_feed)
         self.assertEqual(Event.objects.all().count(), 1)
 
     def test_update_event(self):
-        """Updated event with matching UID should be updated"""
-        self.fail()
+        """Event with matching UID should be updated"""
+        event = Event.objects.create(
+            name="Name",
+            slug="slug",
+            uid="somenewevent",
+        )
+        events_feed = [(VEvent(dummy_event(UID='somenewevent')))]
+        c = CalendarFeed.objects.create(
+            name="Test", url="")
+        c.process_events(events_feed)
+        self.assertEqual(
+            Event.objects.get(pk=event.pk).url,
+            "http://www.tripod.com",
+        )
